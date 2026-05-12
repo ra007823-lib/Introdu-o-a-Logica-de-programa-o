@@ -1,0 +1,16 @@
+1) 	¬(a ^ b) v (b -> c)
+	(¬a v ¬b) v (¬b v c)
+
+2)	¬a -> (b v ¬c)
+	a v (b v ¬ c)
+
+3)	s -> ((p -> q) -> r)
+	¬s v (¬(¬p v q) v r)
+
+4)	(q v p) ^ (r v q)
+	¬(¬(q v p) v ¬(r v q))
+
+5)	¬(p ^ q) ^ (r v p)
+	¬(¬(¬p v ¬q) v ¬(r v p))
+
+
