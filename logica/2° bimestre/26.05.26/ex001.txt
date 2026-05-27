@@ -1,0 +1,23 @@
+reescreva usando apenas ¬ e v:
+
+1) ¬(p ^ q) ^ (r -> s)
+    (¬p v ¬q) ^ (¬r v s)
+    ¬(¬(¬p v ¬q) v ¬(¬r v s))
+
+2)(¬a ^ b)
+¬(a v ¬b)
+
+3)(p ^ q) -> (¬r ^ ¬q)
+¬(¬p v ¬q) -> ¬(r v q)
+(¬p v ¬q) v ¬(r v q)
+
+reescreva usando FND e FNC:
+
+4)q -> r
+(¬q v r)
+(not q or r)
+FND = (not q or r)
+
+5)(a ^ b) <-> (¬c ^ ¬a)
+    (p and q) == (not r and not p)
+(a ^ ¬ b ^ c) v (a ^ ¬b ^ ¬c) v (¬a ^ b ^ c) v (¬ a ^ ¬ b ^ c)
