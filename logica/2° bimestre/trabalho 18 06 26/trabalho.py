@@ -42,5 +42,9 @@ for i in range(2):
     print(f'Esta formula é: \033[31m{propriedade}\033[m')
     print('-'*120)
 
-    
-    print(comparacao)
+if comparacao[0] == comparacao[1]:
+    print('fazendo análize de equivalência entre as formulas: ')
+    print(f'\033[32mAs formulas são equivalentes!\033[m')
+else:
+    print('fazendo análize de equivalência entre as formulas: ')
+    print(f'\033[31mAs formulas não são equivalentes!\033[m')
